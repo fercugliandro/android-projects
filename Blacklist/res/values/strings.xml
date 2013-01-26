@@ -1,0 +1,80 @@
+<resources>
+
+    <!-- Title -->
+    <string name="app_name">Blacklist</string>
+    
+    <!-- Title ActionBar -->
+    <string name="title_addNumeroBlackList">Bloquear</string>
+    <string name="title_settings">Configurações</string>
+    <string name="title_callLog">Histórico de ligações</string>
+    
+    <!-- Tabs title -->
+    <string name="title_section1">Histórico</string>
+    <string name="title_section2">Bloqueados</string>
+    
+    <string name="title_activity_main">Blacklist</string>    
+
+    
+    <!-- Menus -->
+    <string name="menu_settings">Configurações</string>
+    <string name="menu_shared">Compartilhe</string>
+    <string name="menu_add">Adicionar</string>
+    <string name="menu_backup">Backup</string>
+    <string name="menu_restore">Restarar backup</string>
+    <string name="menu_clearHistory">Limpar histórico</string>
+    <string name="menu_addNumber">Concluído</string>
+    <string name="menu_removeNumber">Excluir</string>
+    
+    <!-- Share -->
+    <string name="compartilharTitulo">Compartilhe!</string>
+   	<string name="compartilharSubject">Baixe Blacklist!</string>
+   	<string name="compartilharTexto">Estou usando o app #Blacklist para bloquear ligações e cancelar/silenciar uma ligação enquanto estiver em reuniões! http://goo.gl/5a0w7</string>
+   	
+   	<!-- Activity -->
+   		<!-- BlacklistActivity -->
+   		<string name="dialogHistoryTitle">Histórico</string>
+   		<string name="dialogHistoryMessage">Deseja excluir TODO histórico da blacklist?</string>
+   		<string name="dialogHistoryButtonYes">Sim</string>
+   		<string name="dialogHistoryButtonNo">Não</string>
+   		
+   		<string name="dialogBackupMessage1">Aguarde</string>
+   		<string name="dialogBackupMessage2">Realizando backup da Blacklist</string>
+   		
+   		<string name="dialogRestoreMessage1">Aguarde</string>
+   		<string name="dialogRestoreMessage2">Restaurando dados da Blacklist</string>
+   		
+   		<!-- BlacklistOldActivity -->
+   		<string name="dialogNumberBlacklistTitle">Exclusão</string>
+   		<string name="dialogNumberBlacklistMessage1">Deseja excluir </string>
+   		<string name="dialogNumberBlacklistMessage2">da blacklist? </string>
+   		<string name="dialogNumberBlacklistButtonYes">Sim</string>
+   		<string name="dialogNumberBlacklistButtonNo">Não</string>
+   		
+   		<!-- Add_NumberBlacklist -->
+   		<string name="phoneNumber">Nº Telefone:</string>
+   		<string name="btnReadHistory">Histórico de ligações</string>
+   		<string name="numberExistsOnBlacklist">Número já na Blacklist</string>
+   		
+   		<!-- History Detail -->
+   		<string name="actionBarHistory">Histórico - </string>
+   		
+   		<!-- Prefs -->
+   		<string name="categoryGeneral">Geral</string>
+   		<string name="categoryGeneralNotification">Mostrar notificações</string>
+   		<string name="categoryGeneralNotificationSumaryOn">Não Mostrar notificações</string>
+   		<string name="categoryGeneralNotificationSumaryOff">Mostrar notificações</string>
+   		<string name="categoryGeneralNotificationOff">Não</string>
+   		<string name="categoryGeneralNotificationOn">Sim</string>
+   		
+   		<string name="categoryCalendar">Calendário</string>
+   		<string name="categoryCalendarTitle">Dados do Calendário</string>
+   		<string name="categoryCalendarSumaryOn">Não utilizar dados do Calendário</string>
+   		<string name="categoryCalendarSumaryOff">Utilizar dados do Calendário</string>
+   		<string name="categoryCalendarOff">Não</string>
+   		<string name="categoryCalendarOn">Sim</string>
+   		<string name="categoryCalendarOption">Opções do Calendário</string>
+   		<string name="categoryCalendarOptionSumary">Escolha uma das opções quando estiver em reunião</string>
+   		
+   		
+    <!-- Activity -->	
+</resources>

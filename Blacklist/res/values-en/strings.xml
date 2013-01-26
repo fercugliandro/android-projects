@@ -1,0 +1,80 @@
+<resources>
+
+    <!-- Title -->
+    <string name="app_name">Blacklist</string>
+    
+    <!-- Title ActionBar -->
+    <string name="title_addNumeroBlackList">Block</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_callLog">History</string>
+    
+    <!-- Tabs title -->
+    <string name="title_section1">History</string>
+    <string name="title_section2">Blocked</string>
+    
+    <string name="title_activity_main">Blacklist</string>    
+
+    
+    <!-- Menus -->
+    <string name="menu_settings">Settings</string>
+    <string name="menu_shared">Share</string>
+    <string name="menu_add">Add</string>
+    <string name="menu_backup">Backup</string>
+    <string name="menu_restore">Restore</string>
+    <string name="menu_clearHistory">Clear History</string>
+    <string name="menu_addNumber">Done</string>
+    <string name="menu_removeNumber">Remove</string>
+    
+    <!-- Share -->
+    <string name="compartilharTitulo">Share!</string>
+   	<string name="compartilharSubject">Download the app Blacklist!</string>
+   	<string name="compartilharTexto">I\'m using #Blacklist to block calls and cancel/silence any call while in a meeting! http://goo.gl/5a0w7</string>
+    	
+   	
+   	<!-- Activity -->
+   		<!-- BlacklistActivity -->
+   		<string name="dialogHistoryTitle">Histpry</string>
+   		<string name="dialogHistoryMessage">Remove ALL history from Blacklist?</string>
+   		<string name="dialogHistoryButtonYes">Yes</string>
+   		<string name="dialogHistoryButtonNo">No</string>
+   		
+   		<string name="dialogBackupMessage1">Waiting</string>
+   		<string name="dialogBackupMessage2">Backing</string>
+   		
+   		<string name="dialogRestoreMessage1">Waiting</string>
+   		<string name="dialogRestoreMessage2">Restoring</string>
+   		
+   		<!-- BlacklistOldActivity -->
+   		<string name="dialogNumberBlacklistTitle">Delete</string>
+   		<string name="dialogNumberBlacklistMessage1">Remove </string>
+   		<string name="dialogNumberBlacklistMessage2">from blacklist? </string>
+   		<string name="dialogNumberBlacklistButtonYes">Yes</string>
+   		<string name="dialogNumberBlacklistButtonNo">No</string>
+   		
+   		<!-- Add_NumberBlacklist -->
+   		<string name="phoneNumber">Phone Number:</string>
+   		<string name="btnReadHistory">Call History</string>
+   		<string name="numberExistsOnBlacklist">Number already in Blacklist</string>
+   		
+   		<!-- History Detail -->
+   		<string name="actionBarHistory">History - </string>
+   		
+   		   		<!-- Prefs -->
+   		<string name="categoryGeneral">General</string>
+   		<string name="categoryGeneralNotification">Show Notifications</string>
+   		<string name="categoryGeneralNotificationSumaryOn">Don\'t show notifications</string>
+   		<string name="categoryGeneralNotificationSumaryOff">Show notifications</string>
+   		<string name="categoryGeneralNotificationOff">No</string>
+   		<string name="categoryGeneralNotificationOn">Yes</string>
+   		
+   		<string name="categoryCalendar">Calendar</string>
+   		<string name="categoryCalendarTitle">Calendar Data</string>
+   		<string name="categoryCalendarSumaryOn">Don\'t use calendar data</string>
+   		<string name="categoryCalendarSumaryOff">Use calendar data</string>
+   		<string name="categoryCalendarOff">No</string>
+   		<string name="categoryCalendarOn">Yes</string>
+   		<string name="categoryCalendarOption">Calendar options</string>
+   		<string name="categoryCalendarOptionSumary">Choose one of the options when you are in a meeting</string>
+   		
+    <!-- Activity -->
+</resources>
