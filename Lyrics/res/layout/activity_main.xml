@@ -6,15 +6,16 @@
 
     <EditText
         android:id="@+id/nameArtist"
-        android:layout_width="wrap_content"
+        android:layout_width="235dp"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="17dp"
         android:layout_marginTop="182dp"
-        android:ems="10" 
+        android:ems="10">
         
-        />
+        <requestFocus />
+	</EditText>        
 
     <Button
         android:id="@+id/btnSearch"
@@ -23,6 +24,7 @@
         android:layout_alignBaseline="@+id/nameArtist"
         android:layout_alignBottom="@+id/nameArtist"
         android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
         android:text="Pesquisar" />
-    
+
 </RelativeLayout>
